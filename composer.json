@@ -1,0 +1,16 @@
+{
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "silex/silex": "~2.0",
+        "php-pm/php-pm": "dev-master",
+        "react/http": "dev-master#cd15204bd15d106d7832c680e4fb0ca0ce2f5e30",
+        "php-pm/httpkernel-adapter": "dev-master"
+    },
+    "autoload": {
+        "classmap": ["SilexBootstrap.php"],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
